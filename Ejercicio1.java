@@ -66,6 +66,9 @@ public class Ejercicio1 {
 		JButton btnNewButton = new JButton("Aceptar");
 		btnNewButton.setBounds(83, 148, 89, 23);
 		frmJazmnlvarezEspinosa.getContentPane().add(btnNewButton);
+		public void actionPerformed(ActionEvent e) {
+			textfield_2.setText("Datos Correctos");
+		}
 		
 		JButton btnNewButton_1 = new JButton("Cancelar");
 		btnNewButton_1.setBounds(275, 148, 89, 23);
